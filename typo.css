@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "White Rabbit";
+    /* src: url( "/_media/tplimg:blackrabbit:whitrabt.ttf" ); */
+    src: url( "images/whitrabt.ttf" );
+}
+body {
+    color:__text__;
+    font-size:12px;
+    font-family:Arial,sans-serif;
+    line-height:1.5;
+    background-color: __background__;
+}
+a:visited,
+a:active,
+a:hover,
+a:visited:hover,
+a {
+    color:#565657;
+    text-decoration: none;
+    border-bottom:1px solid #ccc;
+}
+a.wikilink2, a.wikilink2:visited {
+    border-bottom:1px dashed #565657;
+    color:#565657;
+}
+a:hover {
+    text-decoration: none;
+    border-bottom:2px solid #ccc;
+}
+a:visited:hover {
+    text-decoration: none;
+    border-bottom:2px solid #eee;
+}
+ 
+div.dokuwiki a.urlextern { 
+  background: transparent url(images/link_icon.gif) 0px 1px no-repeat; 
+  padding: 1px 0px 1px 16px; 
+} 
+
+#qsearch__out a:hover {
+    border-bottom:2px solid #666;
+}
+#qsearch__out a:visited:hover {
+    border-bottom:2px solid #eee;
+}
+#qsearch__out, #qsearch__in {
+    font-size: 10px;
+
+}
+
+
+/*
+div.dokuwiki a.urlextern:link,
+div.dokuwiki a.windows:link,
+div.dokuwiki a.interwiki:link {
+} 
+
+div.dokuwiki a.urlextern:visited,
+div.dokuwiki a.windows:visited,
+div.dokuwiki a.interwiki:visited {
+} 
+div.dokuwiki a.urlextern:hover,
+div.dokuwiki a.urlextern:active,
+div.dokuwiki a.windows:hover,
+div.dokuwiki a.windows:active,
+div.dokuwiki a.interwiki:hover,
+div.dokuwiki a.interwiki:active {
+
+*/
+
+
+strong a, strong a:visited {
+    color:#990000;
+}
+a img {
+    border:none;
+}
+h1, h2, h3, h4, h5,
+h1 a, h2 a, h3 a, h4 a, h5 a {
+    font-weight:inherit;
+    font-family:'White Rabbit',Arial,sans-serif;
+    color: #565657;
+    border: none;
+    text-decoration: none;
+    clear: both;
+    margin: 15px 0;
+}
+h1 { font-size:24px; margin-top: 15px; }
+h2 { font-size:20px; margin-top:15px; border-bottom:1px dotted #ccddff; }
+h3 { font-size:17px; }
+h4 { font-size:14px; font-style:italic; }
+h5 { font-size: 14px; font-style:italic; }
+#content h2,
+#content div.level2 {
+    margin-left:14px;
+}
+#content h3,
+#content div.level3 {
+	margin-left:30px;
+}
+#content h4,
+#content div.level4 {
+	margin-left:45px;
+}
+#content h5,
+#content div.level5 {
+	margin-left:60px;
+}
+#content h2 {
+    border-top:1px dotted #ccc;
+    border-bottom: none;
+    margin-left: 0;
+    padding-left: 15px;
+}
+div.dokuwiki form.bureaucracy__plugin fieldset,
+.plugin_include_content {
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+  float: left;
+  display: inline;
+  overflow: auto;
+  clear: both;
+}
+#menu {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.98em;
+    color: #ccc;
+}
+
+#menu a {
+    color: #ccc;
+    border: none;
+}
+#topbar div,
+#youarehere div {
+}
+.user {
+    color:#666666;
+    font-size:10px;
+}
+.menu a,
+.user a {
+    border: none;
+}
+
+legend {
+    font-family:'White Rabbit',Arial,sans-serif;
+    font-weight: bold;
+    color: __text__;
+    background: __background_neu__;
+    font-size: 12.5px;
+}
+
+#content pre {
+    font-size: 100%;
+}
+
+#menu #toc__header {
+    font-size: 0.8em;
+}
+
+#menu ul.toc {
+    margin: 0;
+}
+#menu ul.toc ul {
+    margin-top: .5em;
+}
+#menu ul.toc li {
+    margin: 0 0 .5em 0;
+}
+
+#menu div.toc {
+    width: 99%;
+    font-size: .97em;
+}
+
+
+.dokuwiki #config__manager td.label span.outkey {
+    margin-top: 0;
+}

@@ -1,0 +1,320 @@
+/* startpage */
+#plugin_include__eh2010\3Aindex {
+  clear: none;
+  float: left;
+  width: 44%;
+  margin: 0 3% 25px 0;
+}
+#content #plugin_include__eh2010\3Aindex h2 {
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+#plugin_include__eh2010\3Anews {
+    border: none;
+}
+/* header */
+.header {
+    padding: 0;
+    margin: 15px 0 0 0;	
+    overflow: hidden;	
+} 
+
+.hlogo-wrapper {
+    overflow: hidden;
+}
+.hlogo-wrapper div {
+    float: right;
+}
+
+.header .title {
+    clear: both;
+    float: right;
+    margin: 5px 20px 0 0;
+    text-align: right;
+}
+.header .search {
+    margin: 0 auto;
+}
+.header .search #dw__search input.button {
+    display:none;
+}
+.header .search #qsearch__in {
+    float: right;
+    margin-right: 20px;
+    width:168px;
+    padding-left:16px;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+    background:transparent url('/_media/tplimg:blackrabbit:magnifier.png') no-repeat 4px 4px;
+}
+.header .search #qsearch__out {
+    position: absolute;
+    right: 18px;
+    margin-top: 24px;
+}
+
+.header .user {
+    position: absolute;
+    right: 60px;
+    background-color: #fff;
+    padding: 0 5px;
+    margin-right: 0px;
+}
+.header .theme-switch {
+    float: left;
+    margin-left: 5px;
+}
+.header .theme-switch a {
+    float: left;
+    display: block;
+    height: 5px;
+    width: 5px;
+    font-size: 0;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    margin: 2px 5px;
+}
+.header .theme-switch a.black-yellow {
+    border: 2px solid #a2a202;
+    background-color: #000;
+}
+.header .theme-switch a.green-black {
+    border: 2px solid #00aa00;
+    background-color: #000;
+}
+.header .theme-switch a.green-white {
+    border: 2px solid #eee;
+    background-color: #00dd00;
+}
+
+
+#menu {
+    display: block;
+    float: left;
+    width: 14%;
+    margin-top: 40px;
+    border: none;
+}
+.dokuwiki #menu {
+    float: right;
+}
+#menu #topbar div,
+#menu #youarehere div {
+    margin: 0 auto;
+}
+#menu #topbar div {
+    margin-top: 10px;
+}
+#menu div.active {
+    padding-left: 10px;
+}
+
+#menu div.toc {
+    float: left;
+    margin: 20px auto;
+    color: #666;
+}
+#menu #toc__header {
+    padding-left: 10px;
+    border: none;
+}
+#menu #toc__inside {
+    border: none;
+}
+#menu div.toc a {
+    color: #666;
+}
+
+#menu ul { 
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.footer {
+    display: block;
+    clear: both;
+    margin: 20px 0px;
+}
+.footer .credits {
+    float: right;
+}
+.actions {
+    position: fixed;
+    bottom: 10px;
+    left: 5px;
+    background: url(/_media/tplimg:blackrabbit:buttonshadow.png) repeat-x scroll center bottom;
+    z-index: 1000;
+    margin: 0; 
+    margin-top: 3px;
+    padding: 0px 0px 0 10px;
+}
+.actions .button {
+    margin-right: 3px;
+    float: left;
+}
+
+
+div.error {
+    color: #990000;
+    background-color: #fff;
+    border: none;
+    padding-left: 25px;
+}
+
+
+#content {
+    float: right;
+    text-align: justify;
+    margin: 0 2% 40px 2%;
+    width: 82%;
+    clear: none;
+}
+
+#content ul {
+  margin-left: 20px;
+  list-style: inherit; 
+}
+
+
+#content table.inline td {
+  border: 2px solid #ccc;
+  border: none;
+  padding: 3px 6px;
+}
+#content table.inline table,
+#content table.inline tr,
+#content table.inline th,
+#content table.inline td {
+  background: none;
+  border-left: none;
+  border-right: none;
+}
+
+#content pre.code {
+    background: none;
+    border-left: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    border-top: none;
+    border-right: none;
+}
+
+
+
+
+/* pentabarf */
+
+#conference-logo { 
+    height: 102px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#conference-logo a { 
+    display: block;
+    float: right;
+    width: 588px;
+    height: 102px;
+    border: none;
+    margin-right: 152px;
+}
+#conference-logo a img { display: none; }
+
+
+/*
+#menu {
+    display:block;
+    float:left;
+    margin-top:40px;
+    width:14%;
+    font-size: 1.1em;
+}
+
+#content {
+    clear:none;
+    float:right;
+    margin:0 2% 45px;
+    width:82%;
+    font-size: 1.1em;
+}
+    */
+#content .release {
+    float: left;
+    margin: 10px 20px 0 0;
+
+}
+#content .intro {
+    margin: 10px 10px 0 0;
+}
+#content .intro br {
+    display: none;
+}
+#content #speaker,
+#content #event,
+#content #schedule {
+    display: block;
+    float: none;
+    clear: both;
+    margin: 10px;
+
+}
+#infobox {
+    float: right;
+    margin: 0 0 10px 10px;
+    border-left: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+}
+
+#schedule td.event {
+/*
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+*/
+}
+#schedule table {
+    padding: 0 5px 5px 0;
+    border-spacing: 1px; 
+    background-color: #ccc;
+
+}
+#schedule th,
+#schedule td {
+    background-color: #fff;
+    padding: 0 5px;
+}
+#schedule td.time {
+    padding: 0 5px;
+}
+#schedule table p {
+    margin: 0;
+    display: block;
+    float: none;
+    clear: none;
+}
+#schedule table ul {
+    list-style-type:none;
+    padding-left: 0px;
+    margin: 0;
+}
+#schedule td {
+    margin: 4px;
+    vertical-align: top;
+}
+#content #schedule .title a {
+    color: #000;
+}
+#content #schedule .subtitle a {
+    color: #000;
+    text-decoration: none;
+    border: none;
+}
+#schedule div.language-info {
+    display: none;
+}
+#schedule div.info {
+    border: none;
+    background: none;
+    padding: 0;
+}
+
