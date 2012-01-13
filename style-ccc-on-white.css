@@ -1,58 +1,8 @@
-.header .hlogo-wrapper {
-	background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_pattern.gif?w=57') repeat-x top right;
-}
 
-.header .hlogo-l { width: 152px; }
-.header .hlogo-r { }
-.header .hlogo {
-    width: 585px;
-    background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_10.gif?w=588') no-repeat top right;
-} 
 .header .r {
     float: left;
     display: inline;
     background-color: white;
     display: none;
 }
-
-.header .hlogo-rand-0 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_01.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-1 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_01.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-2 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_02.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-3 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_03.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-4 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_04.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-5 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_05.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-6 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_06.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-7 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_07.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-8 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_08.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-9 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_09.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-10 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_10.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-11 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_11.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-12 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_12.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-13 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_13.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-14 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_14.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-15 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_15.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-16 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_16.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-17 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_13.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-18 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_07.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-19 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_03.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-20 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_12.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-21 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_15.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-22 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_16.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-23 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_1.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-24 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_4.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-25 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_5.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-26 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_6.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-27 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_8.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-28 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_9.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-29 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_4.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-30 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_6.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-31 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_9.gif?w=588') repeat-x top right; }
-.header .hlogo-rand-32 { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_10.gif?w=588') repeat-x top right; }
-
-#conference-logo { 
-    background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_pattern.gif?w=57') repeat-x top right;
-}
-
-#conference-logo a { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_01.gif?w=588') no-repeat top right; }
-.hlogo-rand-2 a { background:  url( '/_media/tplimg:blackrabbit:rabbitprooffence_web_02.gif?w=588') no-repeat top right; }
 
