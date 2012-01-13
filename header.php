@@ -76,7 +76,7 @@ function tpl_footer_lv( ){/*{{{*/
   echo '<div class="actions">';
   tpl_button('edit');
   tpl_button('history');
-  tpl_button('media');
+  #tpl_button('media');
   tpl_button('backlink');
   tpl_button('recent');
   tpl_button('index');

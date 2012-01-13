@@ -168,6 +168,7 @@ div.error {
     float: right;
     text-align: justify;
     margin: 0 2% 40px 2%;
+    padding-bottom: 40px;
     width: 82%;
     clear: none;
 }
