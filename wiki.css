@@ -35,7 +35,7 @@ div.dokuwiki div.wrapper div#wiki__editbar div.editButtons {
     background: #fff url(/_media/tplimg:blackrabbit:buttonshadow.png) repeat-x scroll center bottom;
     position: fixed;
     bottom: 10px;
-    left: 360px;
+    left: 580px;
     margin: 0 0 0 60px; padding: 0;
     z-index: 1001;
 }
