@@ -179,18 +179,14 @@ div.error {
 }
 
 
-#content table.inline td {
-  border: 2px solid #ccc;
-  border: none;
-  padding: 3px 6px;
+#content table {
+    text-align: left;
 }
-#content table.inline table,
-#content table.inline tr,
 #content table.inline th,
 #content table.inline td {
-  background: none;
-  border-left: none;
-  border-right: none;
+  padding: 3px 6px;
+    border-left: none;
+    border-right: none;
 }
 
 #content pre.code {
