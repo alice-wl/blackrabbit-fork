@@ -70,6 +70,13 @@ function tpl_sidebar_lv( ){/*{{{*/
 }/*}}}*/
 }
 
+if( !function_exists( 'tpl_topbar_lv' )) {
+// you are here less verbose 
+function tpl_topbar_lv( ){/*{{{*/
+  echo '';
+}/*}}}*/
+}
+
 if( !function_exists( 'tpl_footer_lv' )) {
 // you are here less verbose 
 function tpl_footer_lv( ){/*{{{*/
@@ -116,9 +123,7 @@ function tpl_footer_lv( ){/*{{{*/
 </div>
 
     </div>
-    <div>
-	<div class="search"><?php tpl_searchform();?></div>
-	<div>
+    <div class="search"><?php tpl_searchform();?></div>
 <!--
 <div class='theme-switch'>
 <?
@@ -128,9 +133,7 @@ foreach( $themes as $th ) { echo "<a class='$th' href='".$prefix."utpl_theme=$th
 ?>
 </div>
 -->
-	    <div class="title"><?php #min_links(tpl_getConf('header-line'));?></div>
-	</div>
-    </div>
+     <div class="title"><?php tpl_topbar_lv( );?></div>
 </div>
 
 <div class="wrapper">
