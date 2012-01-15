@@ -115,6 +115,9 @@
     padding-left: 10px;
 }
 
+#menu div#sidebar {
+    margin-left: 5px;
+}
 #menu div.toc {
     float: left;
     margin: 20px auto;

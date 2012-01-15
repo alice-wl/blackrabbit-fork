@@ -124,7 +124,6 @@ div.dokuwiki form.bureaucracy__plugin fieldset,
 #menu {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 0.98em;
     color: #ccc;
 }
 
@@ -157,7 +156,6 @@ legend {
 }
 
 #menu #toc__header {
-    font-size: 0.9em;
 }
 
 #menu ul.toc {
