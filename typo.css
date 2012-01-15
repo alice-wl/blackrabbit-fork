@@ -176,7 +176,7 @@ legend {
 }
 
 .header .title a {
-    margin: 0 10px;
+    margin: 0 20px 0 0;
 }
 
 .dokuwiki #config__manager td.label span.outkey {
