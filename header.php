@@ -99,7 +99,7 @@ function tpl_footer_lv( ){/*{{{*/
     <meta http-equiv="content-language" content="en"/>
     <title><?php tpl_pagetitle();?> [<?php echo hsc($conf['title']);?>]</title>
 </head>
-<body class='<?php echo $t->get_user( 'theme' ) ?>'>
+<body class='<?php #echo $t->get_user( 'theme' ) ?>'>
 <?php html_msgarea();?>
 <div class="dokuwiki">
 
