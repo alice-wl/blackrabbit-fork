@@ -155,7 +155,8 @@ legend {
     font-size: 100%;
 }
 
-#menu #toc__header {
+div.dokuwiki #dw__toc h3 {
+    font-family:Arial,sans-serif;
 }
 
 #menu ul.toc {
